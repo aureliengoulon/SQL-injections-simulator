@@ -73,19 +73,66 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     For what it is worth, it is released under the GPL version 3 or above
 */
 
-$username = false;
+$accountnumber = false;
 $password = false;
 $loginok = false;
 $realname = false;
 
 $users = array(
-               array('username'=>'bob','password'=>'axp149','realname'=>'System Administrator'),
-               array('username'=>'dave','password'=>'davepass','realname'=>'David Jones'),
-               array('username'=>'sam','password'=>'cheese','realname'=>'Sam Davis')
+               array('accountnumber'=>'44917600','password'=>'dcZ2ysA8FuFr','realname'=>'Arturo Botica'),
+               array('accountnumber'=>'31081321','password'=>'BhIg41DM9ZOsl1','realname'=>'Alzira Anlicoara'),
+               array('accountnumber'=>'84200426','password'=>'ufGuMOT0n61LT2','realname'=>'Amadeu Castro'),
+               array('accountnumber'=>'17046033','password'=>'yAAZlj9J','realname'=>'Ana Monjardim'),
+               array('accountnumber'=>'19056219','password'=>'9hDgDER4','realname'=>'Artur Mangueira'),
+               array('accountnumber'=>'97907701','password'=>'EWWLXImo3S','realname'=>'Bernardino Talhão'),
+               array('accountnumber'=>'16378731','password'=>'A71EENX3','realname'=>'Borrás Coimbra'),
+               array('accountnumber'=>'52895671','password'=>'bMpctRTquzEu5b','realname'=>'Capitolina Brião'),
+               array('accountnumber'=>'93914177','password'=>'yxna3WQH','realname'=>'Carmem Bello'),
+               array('accountnumber'=>'61884798','password'=>'y1EgixTK','realname'=>'Clotilde Inês'),
+               array('accountnumber'=>'41430407','password'=>'RAtoSXpTbl','realname'=>'Cora Miranda'),
+               array('accountnumber'=>'72856051','password'=>'2t3XkkDX','realname'=>'Cássia Batista'),
+               array('accountnumber'=>'91293186','password'=>'KAeQuk8Qnfcy','realname'=>'César Girã'),
+               array('accountnumber'=>'39904402','password'=>'RiAehLIg30FGmh','realname'=>'Deise Bettencourt'),
+               array('accountnumber'=>'84531205','password'=>'kpxidh3gCd','realname'=>'Dinis Perdigão'),
+               array('accountnumber'=>'41546225','password'=>'6yaIIQ45TUO6','realname'=>'Dino Cardim'),
+               array('accountnumber'=>'45020201','password'=>'cEwg91PZQ9','realname'=>'Dulce Cysneiros'),
+               array('accountnumber'=>'79335851','password'=>'7junrnzHwDnC6u','realname'=>'Elvira Nóbrega'),
+               array('accountnumber'=>'68646472','password'=>'PfrSjAM5','realname'=>'Felisbela Pedroso'),
+               array('accountnumber'=>'63230143','password'=>'430niJANdb','realname'=>'Germana Collaço'),
+               array('accountnumber'=>'35108882','password'=>'ds97mXD4SFIxh2','realname'=>'Guaraci Noguera'),
+               array('accountnumber'=>'16994396','password'=>'k6ODYKu9172p6p','realname'=>'Guilherme Girão'),
+               array('accountnumber'=>'74026221','password'=>'tYnLmGr0','realname'=>'Guterre Mendoça'),
+               array('accountnumber'=>'88152869','password'=>'a0bTLrbK','realname'=>'Levi Valentín'),
+               array('accountnumber'=>'27565905','password'=>'UdaEyyRF','realname'=>'Leônidas   Meneses'),
+               array('accountnumber'=>'16350872','password'=>'U2NjDako8Kxs','realname'=>'Lino Bentes'),
+               array('accountnumber'=>'69070083','password'=>'duy3Tq4RaGWuMc','realname'=>'Lorena Almada'),
+               array('accountnumber'=>'48011400','password'=>'Ahl26deX9FXfrJ','realname'=>'Murilo Ribas'),
+               array('accountnumber'=>'72802356','password'=>'iz7ytTCekF','realname'=>'Márcio Villégas'),
+               array('accountnumber'=>'81750307','password'=>'a656oU4kaSQyDn','realname'=>'Máximo Lóio'),
+               array('accountnumber'=>'35795542','password'=>'9hePNuKjWq','realname'=>'Natacha Nazário'),
+               array('accountnumber'=>'74299456','password'=>'TO9lLx60YI','realname'=>'Noêmia   Damásio'),
+               array('accountnumber'=>'28870817','password'=>'wK0fFA3PMZI3','realname'=>'Ofélia Dias'),
+               array('accountnumber'=>'28772150','password'=>'yrxEBpx4z9CAeU','realname'=>'Pascoal Abreu'),
+               array('accountnumber'=>'29553564','password'=>'yL2ytnIa','realname'=>'Quitéria Prates'),
+               array('accountnumber'=>'80134078','password'=>'iDEDc66ilz','realname'=>'Rogério Bianco'),
+               array('accountnumber'=>'58011422','password'=>'K6bndS4M','realname'=>'Rosaura Camillo'),
+               array('accountnumber'=>'20666192','password'=>'4Gi2QWlmSOn5','realname'=>'Rosaura Neres'),
+               array('accountnumber'=>'63766552','password'=>'upZJEr41J8yL','realname'=>'Ruca Brião'),
+               array('accountnumber'=>'15275430','password'=>'FEYawtYbm2lD','realname'=>'Salvina Santiago'),
+               array('accountnumber'=>'62320533','password'=>'6MzljcLohjFS','realname'=>'Sancha Santarém'),
+               array('accountnumber'=>'72987998','password'=>'fQPBGIoko2RnK1','realname'=>'Susana Neiva'),
+               array('accountnumber'=>'14145148','password'=>'RHXPoT1W62fGuc','realname'=>'Tadeu Pozas'),
+               array('accountnumber'=>'39248070','password'=>'wfyPPlJkSD3tJO','realname'=>'Tairine Gaspar'),
+               array('accountnumber'=>'64542421','password'=>'qwe123','realname'=>'Tristão Vilanova'),
+               array('accountnumber'=>'84387481','password'=>'PUpi0EcYOy','realname'=>'Tânia Carvalho'),
+               array('accountnumber'=>'26382822','password'=>'b7u3kkjk','realname'=>'Valentina Durán'),
+               array('accountnumber'=>'16404671','password'=>'0GZB3CGgoWnj','realname'=>'Veríssimo Tigre'),
+               array('accountnumber'=>'11878001','password'=>'xCaTmfn6','realname'=>'Virgínia Laranjeira'),
+               array('accountnumber'=>'31145148','password'=>'bgOUjXe3','realname'=>'Ítala Quiroga')
                );
 
-if (isset($_REQUEST['username'])) { 
-    $username = strtolower($_REQUEST['username']);
+if (isset($_REQUEST['accountnumber'])) { 
+    $accountnumber = strtolower($_REQUEST['accountnumber']);
 }
 
 if (isset($_REQUEST['password'])) {
@@ -94,22 +141,22 @@ if (isset($_REQUEST['password'])) {
 
 // Remove any 'magic quotes' (if set)
 if (get_magic_quotes_gpc()) {
-    $username = stripslashes($username);
+    $accountnumber = stripslashes($accountnumber);
     $password = stripslashes($password);
 }
 
 // Check for 'proper' login
 foreach ($users as $user) {
-    if ($username == $user['username'] && $password == $user['password']) {
+    if ($accountnumber == $user['accountnumber'] && $password == $user['password']) {
         $loginok = true;
         $realname = $user['realname'];
-        $result = "Found 1 result:<br/>username: {$user['username']}, password: {$user['password']}, realname: {$user['realname']}";
+        $result = "Found 1 result:<br/>accountnumber: {$user['accountnumber']}, password: {$user['password']}, realname: {$user['realname']}";
     }
 }
 
 if (!$loginok) {
-    // Split the username by the ' character
-    $usersplit = explode('\'', $username);
+    // Split the account number by the ' character
+    $usersplit = explode('\'', $accountnumber);
 
     if (count($usersplit) == 1) {
         // No 'proper' login and no attempt at SQL injection
@@ -135,7 +182,7 @@ if (!$loginok) {
                 // Display all records - selet the first as the 'logged in' user
                 $result = 'Found '.count($users).' results<br/>';
                 foreach ($users as $user) {
-                    $result .= "username: {$user['username']}, password: {$user['password']}, realname: {$user['realname']}<br/>";
+                    $result .= "accountnumber: {$user['accountnumber']}, password: {$user['password']}, realname: {$user['realname']}<br/>";
                 }
                 $realname = $users[0]['realname'];
             } else {
@@ -146,18 +193,24 @@ if (!$loginok) {
 }
 
 if ($loginok) {
-    echo "<h1>Welcome, $realname</h1>";
-    echo '<p>Here is some top secret information, that only you should be able to access</p>';
+    $saldo = (rand(12500, 188000));
+    $saldo = number_format($saldo, $decimals = 0, $dec_point = ",", $thousands_sep = ".");
+    echo "<h1>Bemvindo, $realname</h1>";
+    echo '<p>Aqui estão umas informações secretas que somente você deveria poder acessar.</p><br>';
+    echo "<h2> Saldo em conta: <b>R$ $saldo</b></h2><br>";
+    echo '<button type="button">Fazer uma transferência</button> ';
+    echo '<button type="button">Pagar um boleto</button> ';
+    echo '<button type="button">Ir para a Home Broker</button><br><br>';
     echo '<p><a href="sqlinjectsim.php">Logout</a></p>';
 
 } else {
-    echo '<h1>Welcome to this site</h1>';
-    echo '<p>Please login below:</p>';
+    // echo '<h1>Welcome to this site</h1>';
+    // echo '<p>Please login below:</p>';
 
     $loginname = '';
-    if ($username) {
-        echo '<p style="color: red;">Username / password is incorrect</p>';
-        $loginname = $username;
+    if ($accountnumber) {
+        echo '<p style="color: red;">Account number / password is incorrect</p>';
+        $loginname = $accountnumber;
     }
 
     echo '
@@ -224,8 +277,8 @@ if ($loginok) {
                 <div class="banner-inner">
                     <div class="col-md-5 banner-left">
                         <form action="#" method="post" action="sqlinjectsim.php">
-                        <h3>Start savings account</h3>
-                            <input type="text" placeholder="Conta" required="" name="username" value=""/>
+                        <h3>Acessar a sua conta</h3>
+                            <input type="text" placeholder="Conta" required="" name="accountnumber" value=""/>
                             <input type="password" placeholder="Senha" required="" name="password" value=""/>
                             <div class="submit">
                                 <input type="submit" name="login"value="entrar">
@@ -234,7 +287,7 @@ if ($loginok) {
                     </div>
                     <div class="col-md-7 banner-right">
                         <h1>Conheça o Banco Poupamais</h1>
-                        <h4>Plataforma 100% online. Seu banco, seus serviços, todos os serviços sem tarifa.</h4>
+                        <h4>Plataforma 100% online. Seu banco, seus serviços, todos os serviços sem tarifa. Isso tudo com a plataforma mais segura do mercado!</h4>
                             <div class="banner-right-text">
                                 <div class="main-icon">
                                     <i class="fa fa-share" aria-hidden="true"></i>
@@ -260,7 +313,7 @@ if ($loginok) {
                                 <div class="main-icon">
                                     <i class="fa fa-share" aria-hidden="true"></i>
                                 </div>
-                                <p>Seguros parasua casa, seu carro, suas viagens.</p>
+                                <p>Seguros para sua casa, seu carro, suas viagens.</p>
                             <div class="clearfix"></div>
                             </div>
                             <div class="banner-right-text">
@@ -287,9 +340,9 @@ if ($loginok) {
             <img src="images/1.jpg" alt="" />
         </div>
         <div class="col-md-6 about-right">
-            <h3>Proin feugiat, lorem ut consequat pellentesque, dolor est consequat lorem, eu condimentum tortor justo id lectus.</h3>
-            <p>Phasellus lorem enim, aliquet vitae pharetra a, vehicula sed risus. Suspendisse rhoncus, ligula ut bibendum imperdiet, nibh lectus gravida lorem, at tristique eros turpis in tortor.</p>
-            <p>Phasellus lorem enim, aliquet vitae pharetra a, vehicula sed risus. Suspendisse rhoncus, ligula ut bibendum imperdiet, nibh lectus gravida lorem, at tristique eros turpis in tortor.</p>
+            <h3>Criado em 1995, Poupamais é o banco digital mais inovador do mercado.</h3>
+            <p>Com agência em todos os estados do país e uma plataforma online 24h, temos muito a oferecer.</p>
+            <p>Investimentos de alto padrão, serviços profissionais e taxa zero de custódia nas operações com valores nacionais. Uma conta Poupamais é uma garantia para o seu futúro.</p>
             <div class="more">
                 <a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
             </div>
@@ -635,19 +688,19 @@ if ($loginok) {
     </div>
 </section>
 <!-- //copyright -->';
-    // echo '<label style="width:80px; display:inline-block; text-align:right;" for="username">Username:</label><input id="username" name="username" type="text" value="'.$loginname.'" /><br />';
+    // echo '<label style="width:80px; display:inline-block; text-align:right;" for="accountnumber">Account number:</label><input id="accountnumber" name="accountnumber" type="text" value="'.$loginname.'" /><br />';
     // echo '<label style="width:80px; display:inline-block; text-align:right;" for="password">Password:</label><input id="password" name="password" type="password" value="" /><br />';
     // echo '<input type="submit" name="login" value="Login" />';
     // echo '</form>';
 }
 
-if ($username) {
+if ($accountnumber) {
     // Login was attempted, so give a 'behind the scenes' look at the SQL query
     echo '<br />';
     echo '<div style="border:solid 1px black; padding: 10px; background-color: #ffffa0;">';
-    echo '<h2>This is what happened on the server</h2>';
+    echo '<h2>O que aconteceu no servidor quando fez login</h2>';
     echo '<p>SQL Query:<br />';
-    echo "SELECT * from `users` WHERE username='$username' AND password='$password'; <br/>";
+    echo "SELECT * from `users` WHERE accountnumber='$accountnumber' AND password='$password'; <br/>";
     echo $result.'<br/>';
 }
 

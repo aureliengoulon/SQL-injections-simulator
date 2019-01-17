@@ -240,7 +240,7 @@ i.fa.fa-inr {
     letter-spacing: 1px;
     font-family: 'Ropa Sans', sans-serif;
 }
-.banner-left input[type="text"],.banner-left input[type="email"],.banner-left input[type="tel"] {
+.banner-left input[type="text"],.banner-left input[type="password"],.banner-left input[type="email"],.banner-left input[type="tel"] {
     font-size: 1em;
     padding: .6em;
     margin: 1em 0;
